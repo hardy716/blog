@@ -1,0 +1,52 @@
+name: blog
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Routing
+  go_router:
+  go_router_builder:
+
+  # DI
+  get_it:
+
+  # State Management
+  flutter_riverpod:
+  riverpod_annotation:
+
+  # Modeling
+  json_annotation:
+  freezed:
+  dartz:
+  equatable:
+
+  # Debounce/Throttle
+  easy_debounce:
+  debounce_throttle:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  riverpod_lint:
+  custom_lint:
+  custom_lint_builder:
+
+  analyzer:
+  analyzer_plugin:
+  build_runner:
+  riverpod_generator:
+  retrofit_generator:
+  json_serializable:
+
+flutter:
+  uses-material-design: true
